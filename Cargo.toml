@@ -6,4 +6,10 @@ authors = ["Grigoriy Baranov <baranov@w3m.co>"]
 license = "MIT"
 edition = "2018"
 
+exclude = [
+    ".github",
+    ".gitignore",
+    "README.md"
+]
+
 [dependencies]
