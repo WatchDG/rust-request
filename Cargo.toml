@@ -1,0 +1,9 @@
+[package]
+name = "wdg-request"
+description = "http request"
+version = "0.1.0"
+authors = ["Grigoriy Baranov <baranov@w3m.co>"]
+license = "MIT"
+edition = "2018"
+
+[dependencies]
