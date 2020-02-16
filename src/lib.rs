@@ -1,15 +1,15 @@
 extern crate string_repr;
 extern crate wdg_uri;
 
-mod header;
-mod method;
+pub mod header;
+pub mod method;
 
 use header::Header;
 use method::Method;
 use string_repr::StringRepr;
 use wdg_uri::URI;
 
-struct Request {
+pub struct Request {
     method: Method,
     uri: URI,
     headers: Vec<Header>,
